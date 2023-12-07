@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inika:wght@400;700&display=swap');
+
+:root {
+    --black: #000;
+    --gray: #494c4e;
+    --white: #fff;
+    --cinzaclaro: #989a91;
+    --verdeescuro: #1F3825;
+    --verde-claro: #B5E9CA;
+}
+
+body{
+    background-color: #615d5d7a;
+}
+
+.navbar {
+    background-color: var(--verdeescuro);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    margin-top: 28px;
+    margin-right: 50px;
+}
+
+.logoConjunto {
+    display: flex;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    margin-right: 758px;
+}
+
+.logoB {
+    margin-right: 5px;
+}
+
+.container-1{
+    background-color: #fff;
+    width: 1200px;
+    height: 650px;
+    margin: 0 auto;
+    border-radius: 13px;
+}
+
+.titulo{
+    padding-top: 50px;
+    padding-left: 343px;
+    font-family: 'Inika', serif;
+    font-weight: 800;
+    font-size: 23px;
+    text-shadow: 0.1em 0.1em 0.2em rgb(177, 177, 177);
+}
+
+.separa{
+    padding-top: 30px;
+    width: 1000px;
+    color: #000;
+    text-shadow: 0.1em 0.1em 0.2em rgb(177, 177, 177);
+    margin-left: 100px;
+}
+
+.escolhas{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bloco1{
+    background-color: var(--verde-claro);
+    width: 300px;
+    height: 400px;
+    margin-top: 60px;
+    border-radius: 15px;
+    border: 3px var(--verdeescuro) solid;
+}
+
+.bloco2{
+    background-color: var(--verde-claro);
+    width: 300px;
+    height: 400px;
+    margin-top: 60px;
+    border-radius: 15px;
+    border: 3px var(--verdeescuro) solid;
+}
+

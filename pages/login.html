@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/stylehome.css">
+</head>
+
+<body class="bodylogin">
+
+    <nav class="navbar">
+        <div class="logoConjunto">
+            <img class="logoB" src="../img/logoBONAVITA.png" width="70px" height="70px">
+            <h4> |&nbspBONAVITA</h4>
+        </div>
+        <div style="display: flex;">
+            <a class="nav-link" href="../index.html">HOME &nbsp&nbsp</a>
+            <a class="nav-link" href="./contato.html">CONTATO &nbsp&nbsp</a>
+            <a class="nav-link" href="../index.html">SERVIÇOS &nbsp&nbsp</a>
+            <a class="login" href="./login.html">LOGIN &nbsp&nbsp</a>
+            <button class="cadastro" onclick="redirectToCadastro()"> CADASTRO</button>
+            <script>function redirectToCadastro() {
+                window.location.href = "./cadastro.html";
+             }</script>
+        </div>
+
+    </nav>
+
+    <div class="erroeform">
+ 
+            <section class="sectionlogin">
+        <div class="logosconta">
+        <div class="google"> <img src="../img/imgoogle.jpg" alt="" height="30px" width="30px"></div>
+
+            <div class="ios"><img src="../img/imgaple.jpg" alt="" height="30px" width="30px"></div>
+        </div>
+
+        <div class="divisao"> <strong> --------------------------------------- OU ---------------------------------------</strong></div>
+
+        <div id="sucessoLOGIN" class="acerto"> Cadastro Realizado</div>
+        <div class="container">
+        <form id="formularioEntrar">
+            <div id="error-required-emaillogin" class="error"> Campo obrigatório</div>
+            <div id="error-required-emailvalidoentrar" class="error"> Email inválido</div>
+            <div id="error-required-senhalogin" class="error"> Campo obrigatório</div>
+            <div id="error-required-senhalogin8" class="error"> A senha deve conter 8 caracteres </div>
+            <div class="input-container">
+                <img class="usuariologo" src="../img/loginusua.png" alt="" height="44px" width="40px">
+                <input class="loginemail" type="text" id="emaillogin" >
+               </div>
+    
+            <div class="input-container">
+                <img class="usuariologos" src="../img/senhausua.png" alt="" height="44px" width="40px">
+                <input class="loginsenha"  type="password" id="senhalogin" >
+               </div>
+            <button class="submitlogin" id="btnSend">AVANÇAR</button>
+
+            <div class="naotemconta">Não tem contar? <a class="cadastrese" href="./preCadastro.html">Cadastre-se</a> </div>
+        </form></div>
+    </section>
+</div>
+    <script src="../js/validacaocadastro.js"></script>
+    
+</body>
+
+</html>

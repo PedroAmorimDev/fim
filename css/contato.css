@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inika:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&family=Work+Sans:wght@700&display=swap');
+
+:root {
+    --black: #000;
+    --gray: #494c4e;
+    --white: #fff;
+    --cinzaclaro: #989a91;
+    --verdeescuro: #1F3825;
+    --verde-claro: #B5E9CA;
+}
+
+body{
+    background-color: #615d5d7a;
+}
+
+.navbar {
+    background-color: var(--verdeescuro);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 120px;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    margin-top: 28px;
+    margin-right: 50px;
+}
+
+.logoConjunto {
+    display: flex;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    margin-right: 758px;
+}
+
+.logoB {
+    margin-right: 5px;
+}
+
+.container-1{
+    background-color: var(--verde-claro);
+    width: 600px;
+    height: 270px;
+    border-radius: 10px;
+    border: 13px #fff solid;
+    margin: 0 auto;
+    display: block;    
+}
+
+.textos{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    text-align: start;
+    margin-left: 20px;
+}
+
+.texto-caixa{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: var(--gray);
+    text-align: start;
+    margin-left: 2px;
+    font-size: 9px;
+}
+
+.form{
+    justify-content: space-around;
+    margin-left: 59px;
+}
+
+.procura-Input {
+    margin-top: 30px;
+    height: 25px;
+    width: 400px;
+    border-radius: 8px;
+    border-color: var(--verde-claro);
+    height: 50px;
+}
+
+.bot-procura {
+    margin-right: 100px;
+    height: 30px;
+    border-radius: 8px;
+    border-color: var(--verde-claro);
+
+}
+
+.img-procura {
+    height: 13px;
+    width: 13px;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pacientes em Espera</title>
+    <link rel="stylesheet" href="../css/pacientesEspera.css">
+
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logoConjunto">
+            <img class="logoB" src="../img/logoBONAVITA.png" width="70px" height="70px">
+            <h4> |&nbspBONAVITA</h4>
+        </div>
+        <div style="display: flex;">
+            <a class="nav-link" href="../index.html">HOME &nbsp&nbsp</a>
+            <a class="nav-link" href="../pages/guiaSeguro.html">AJUDA &nbsp&nbsp</a>
+        </div>
+    </nav>
+
+    <div class="container-1">
+        <div class="textos">
+            <h6>Deseja verificar pacientes próximos?</h6>
+            <h6>Digite seu Bairro/Cidade:</h6>
+        </div>
+
+        <form>
+            <div class="form">
+                <input type="text" name="procura" class="procura-Input" placeholder="Meramente ilustrativo">
+                <button type="submit" class="bot-procura"> <img
+                        src="data:image/png;base64,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"
+                        class="img-procura">
+                </button>
+            </div>
+        </form>
+
+        <div class="quantidade">
+            <h6 class="texto-2">QUANTIDADE DE PESSOAS A PROCURA DE PROFISSIONAIS: <h6 class="num">22</h6>
+            </h6>
+        </div>
+
+        <div class="textos-3">
+            <div>
+                <h6 class="texto-Cadastro"> Quer ver detalhes? <a class="texto-Cadastro2"
+                        href="./preCadastro.html">CLIQUE AQUI</a></h6>
+            </div>
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>
